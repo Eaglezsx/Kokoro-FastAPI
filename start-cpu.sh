@@ -11,6 +11,7 @@ export MODEL_DIR=src/models
 export VOICES_DIR=src/voices/v1_1-zh
 export DEFAULT_VOICE=zf_094
 export REPO_ID=hexgrad/Kokoro-82M-v1.1-zh
+export KOKORO_V1_FILE=v1_1-zh/kokoro-v1_1-zh.pth
 export WEB_PLAYER_PATH=$PROJECT_ROOT/web
 # Set the espeak-ng data path to your location
 export ESPEAK_DATA_PATH=/usr/lib/x86_64-linux-gnu/espeak-ng-data

@@ -74,3 +74,6 @@ api/src/services/text_processing/phonemizer.py
 export VOICES_DIR=src/voices/v1_1-zh
 export DEFAULT_VOICE=zf_094
 export REPO_ID=hexgrad/Kokoro-82M-v1.1-zh
+-----
+修复中英文混合不生成语音的问题
+https://github.com/remsky/Kokoro-FastAPI/pull/237
