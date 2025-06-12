@@ -77,10 +77,7 @@ def create_phonemizer(language: str = "a") -> PhonemizerBackend:
     # Map language codes to espeak language codes
     lang_map = {"a": "en-us", "b": "en-gb", "z": "z"}
 
-    if language not in lang_map:
-        raise ValueError(f"Unsupported language code: {language}")
-
-    return EspeakBackend(lang_map[language])
+    return EspeakBackend("cmn")
 
 
 def phonemize(text: str, language: str = "a", normalize: bool = True) -> str:
